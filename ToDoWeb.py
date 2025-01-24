@@ -25,4 +25,3 @@ for index, Task in enumerate(Tasks):
 st.text_input(label= "Enter a Todo", placeholder="Add New Todo...",
               on_change=add_task, key = 'new_task' )
 
-st.session_state
